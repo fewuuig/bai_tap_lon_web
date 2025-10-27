@@ -1,14 +1,14 @@
 * {
-    box-sizing: border-box;
     margin: 0;
-    font-family: Arial, sans-serif;
     padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-    background: #eef3fb;
-    color: #333;
-    line-height: 1.6;
+    background-color: #F5F6FA;
+    /* nền chung */
+    color: #2C3E50;
 }
 
 
@@ -22,9 +22,10 @@ header {
     padding: 15px 50px;
     justify-content: space-between;
     align-items: center;
+    
 }
 
-header .class {
+header h1 {
     font-size: 22px;
 }
 
@@ -46,6 +47,9 @@ nav ul li a:hover {
     color: #FFC107;
     /* accent vàng */
 }
+
+
+/* Banner */
 
 
 /* ===== MAIN CONTAINER ===== */
@@ -531,27 +535,5 @@ footer a {
     to {
         opacity: 1;
         transform: translateY(0);
-    }
-}
-
-
-/* RESPONSIVE */
-
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        padding: 10px;
-        text-align: center;
-    }
-    nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-    .intro {
-        flex-direction: column;
-    }
-    .intro-text {
-        padding: 20px;
     }
 }
