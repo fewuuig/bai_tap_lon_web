@@ -537,3 +537,21 @@ footer a {
         transform: translateY(0);
     }
 }
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .intro {
+        flex-direction: column;
+    }
+    .intro-text {
+        padding: 20px;
+    }
+}
